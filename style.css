@@ -1,0 +1,86 @@
+body {
+  background-color: #090e46;
+  font-size: 30px;
+  color: ghostwhite;
+  margin: 0;
+}
+img {
+  width: 150px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  padding: 30px;
+
+}
+.block {
+  font-size: 10px;
+  padding: 30px;
+  text-align: center;
+}
+a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  font-size: 20px;
+  padding-right:  10px;
+  padding-left: 10px;
+}
+a:hover {
+  color: rgb(180, 137, 27);
+  background-color: #8AECA8;
+}
+.sidehustle  {
+  text-align: center;
+}
+b {
+  font-size: 30px;
+}
+i {
+  font-size: 15px;
+}
+.float-container {
+  font-size: small;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  box-shadow: 5px 5px 10px 5px rgb(78, 64, 170);
+ 
+}
+.float {
+  padding: 10px;
+  border: 1px solid rgb(253, 252, 252);
+  background-color: rgb(9, 9, 48);
+  box-shadow: 5px 5px 10px  rgb(178, 230, 201);
+}
+.global {
+  float: left;
+  font-size: 20px;
+  width: 50%;
+}
+.container-2 {
+  font-size: small;
+  border: 3px solid black;
+  background-color: rgb(34, 34, 54);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+  left: auto;
+  right: auto;
+}
+.logo {
+  width: 20px;
+}
+.big-container {
+  background-color: rgb(31, 16, 78);
+  height: 200px;
+}
+
+.glob {
+  width: 200px;
+}
+.clr {
+  clear: both;
+}
